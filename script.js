@@ -1,5 +1,5 @@
 // YouTube API Configuration
-const API_KEY = 'AIzaSyA-10-abWpUz28yMnTKl_DiV_BoO808rZ8'; // Replace with your actual YouTube Data API v3 key
+const API_KEY = 'AIzaSyB9av66iwUmhKb74Ls77ujmWQsoRPLsLDU'; // Replace with your actual YouTube Data API v3 key
 let nextPageToken = '';
 let currentQuery = '';
 let isLoading = false;
@@ -8,12 +8,6 @@ let currentTheme = localStorage.getItem('theme') || 'light';
 let currentFilter = 'all';
 let currentSort = 'relevance';
 let currentPlayingVideoId = '';
-
-const channelThumbnail = item.snippet.channelId
-    ? `https://yt3.ggpht.com/ytc/AMLnZu8yB9dYwacWUt7N0pI6l3XQcjDPSg=s48-c`
-    : 'https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg';
-
-
 // DOM Elements
 const searchBar = document.getElementById('search-bar');
 const videoContainer = document.getElementById('video-container');
@@ -633,8 +627,8 @@ function createTrendingVideoElement(item, index) {
         </div>
         <div class="video-info">
             <div class="channel-avatar">
-    <img src="${channelThumbnail}" alt="${escapeHtml(channelTitle)}">
-</div>
+                <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&dpr=1" alt="Channel">
+            </div>
             <div class="video-details">
                 <h4 class="video-title" onclick="playVideo('${videoId}', '${escapeHtml(videoTitle)}')">${escapeHtml(videoTitle)}</h4>
                 <div class="video-meta">
