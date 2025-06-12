@@ -1,0 +1,17 @@
+{
+  "name": "videofinder",
+  "version": "1.0.0",
+  "description": "A modern video search application with beautiful design and animations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": ["video", "search", "youtube", "modern", "animations"],
+  "author": "",
+  "license": "MIT"
+}
