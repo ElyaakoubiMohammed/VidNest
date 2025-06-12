@@ -1,5 +1,5 @@
 // YouTube API Configuration
-const API_KEY = 'AIzaSyB9av66iwUmhKb74Ls77ujmWQsoRPLsLDU'; // Replace with your actual YouTube Data API v3 key
+const API_KEY = 'AIzaSyB9av66iwUmhKb74Ls77ujmWQsoRPLsLDU';
 let nextPageToken = '';
 let currentQuery = '';
 let isLoading = false;
