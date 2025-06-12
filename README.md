@@ -21,6 +21,17 @@ VideoFinder is a simple web application that allows users to search for videos u
 
 - A YouTube Data API key. You can get one from the [Google Cloud Console](https://console.cloud.google.com/).
 
+
+## 🚀 Live Demo
+
+Try the app right now in your browser: [Click here](https://spiffy-sunflower-17637f.netlify.app/).
+
+No installation needed — just click and explore!
+
+---
+
+
+
 ### Installation
 
 1. Clone the repository:
